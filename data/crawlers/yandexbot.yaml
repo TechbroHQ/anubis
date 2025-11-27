@@ -1,6 +1,0 @@
-- name: yandexbot
-  action: ALLOW
-  expression:
-    all:
-      - userAgent.matches("\\+http\\://yandex\\.com/bots")
-      - verifyFCrDNS(remoteAddress, "^.*\\.yandex\\.(ru|com|net)$")

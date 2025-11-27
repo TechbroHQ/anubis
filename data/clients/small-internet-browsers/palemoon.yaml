@@ -1,5 +1,0 @@
-- name: "reduce-weight-palemoon"
-  user_agent_regex: "PaleMoon"
-  action: WEIGH
-  weight:
-    adjust: -5

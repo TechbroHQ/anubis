@@ -1,6 +1,0 @@
-- name: vkbot
-  action: ALLOW
-  expression:
-    all:
-      - userAgent.matches("vkShare[^+]+\\+http\\://vk\\.com/dev/Share")
-      - verifyFCrDNS(remoteAddress, "^snipster\\d+\\.go\\.mail\\.ru$")

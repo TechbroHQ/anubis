@@ -1,6 +1,0 @@
-- name: cloudflare-workers
-  headers_regex:
-    CF-Worker: .*
-  action: WEIGH
-  weight:
-    adjust: 15
